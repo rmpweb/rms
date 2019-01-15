@@ -1,0 +1,40 @@
+<div class='experience'>
+  <rm-info [title]='"Work Experience"'>
+    <rm-info-item *ngFor='let item of experience'>
+      <h4>{{item.role}}</h4>
+      <h5>{{item.employer}}</h5>
+      <h6 class='dates'>{{item.from}} - {{item.to || 'PRESENT'}}</h6>
+      <p>{{item.summary}}</p>
+      <ul>
+      <li *ngFor='let detailItem of item.detail'>
+        {{detailItem.item}}
+      </li>
+      </ul>
+    </rm-info-item>
+  </rm-info>
+</div>
+
+
+
+<!--<div class='content-item'>-->
+<!--<div class='experience-container'>-->
+  <!--<div class='content'>-->
+  <!--<div class='header'>Work Experience</div>-->
+  <!--<div class='items-content'>-->
+    <!--<div class='experience-item' *ngFor='let item of experience'>-->
+      <!--<div class='detail'>-->
+        <!--<h4 class='role'>{{item.role}}</h4>-->
+        <!--<h5 class='employer'>{{item.employer}}</h5>-->
+        <!--<h6 class='dates'>{{item.from}} - {{item.to || 'PRESENT'}}</h6>-->
+        <!--<p>{{item.summary}}</p>-->
+        <!--<ul>-->
+          <!--<li *ngFor='let detailItem of item.detail'>-->
+            <!--{{detailItem.item}}-->
+          <!--</li>-->
+        <!--</ul>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+<!--</div>-->

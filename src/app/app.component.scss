@@ -1,0 +1,164 @@
+@import '../main';
+
+.nav-bar {
+  display: flex;
+  padding: 8px 16px;
+  height: 40px;
+  position: fixed;
+  z-index: 5;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: $primary-darker;
+  color: $secondary-darker;
+  overflow: hidden;
+  .nav-logo {
+    margin-top: 7px;
+    height: 25px;
+    cursor: pointer;
+  }
+  .nav-container {
+    .nav-item {
+      display: none;
+    }
+  }
+}
+
+.root.change {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.nav-bar.change {
+  height: 100vh;
+
+  .nav-container {
+    height: 100vh;
+    //opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    .nav-item {
+      display: block;
+      font-size: 2em;
+      line-height: 1.6em;
+      cursor: pointer;
+    }
+    .nav-item.active {
+      color: $accent;
+    }
+
+  }
+
+}
+
+footer {
+  height: 100px;
+  background: $primary-darker;
+  color: $secondary
+}
+
+@media only screen and (max-width: $screen-xs) {
+  footer {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  rm-nav-toggle {
+    display: none;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 8px 16px;
+    height: 40px;
+    position: fixed;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $primary-darker;
+    color: $secondary-darker;
+    overflow: hidden;
+    .nav-container {
+      .nav-item {
+        display: block;
+      }
+    }
+  }
+  .nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+    transition: opacity .35s ease .75s;
+  }
+
+  .nav-container div {
+    display: block;
+    position: relative;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding: 0 10px 0 10px;
+    outline: none;
+    cursor: pointer;
+    color: #b0b2c3;
+    transition: color .35s ease
+  }
+
+  .nav-container div:before {
+    background-color: $accent-darker;
+    transition: all .25s cubic-bezier(.694, .048, .335, 1) .15s
+  }
+
+  .nav-container div:after, .nav-container div:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    left: auto;
+    width: 0;
+    height: 3px;
+    z-index: 2
+  }
+
+  .nav-container div:after {
+    background-color: $accent;
+    transition: all .25s cubic-bezier(.694, .048, .335, 1)
+  }
+
+  .nav-container div:hover {
+    color: $secondary;
+    text-decoration: none
+  }
+
+  .nav-container div.active {
+    color: #fff;
+  }
+  .nav-container div:hover:after, .nav-container div:hover:before {
+    width: 100%;
+    left: 0
+  }
+
+  .content {
+    top: 56px;
+    left: 0;
+    right: 0;
+  }
+
+  main {
+    top: 56px;
+    overflow-y: auto;
+  }
+
+}
+

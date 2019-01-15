@@ -1,0 +1,9 @@
+<div class='skills'>
+  <rm-info [title]='"Skills"'>
+    <div class='skills-container'>
+      <div  *ngFor="let skill of skills ; let i = index">
+        <img src={{skill.url}}>
+      </div>
+    </div>
+  </rm-info>
+</div>

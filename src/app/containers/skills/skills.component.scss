@@ -1,0 +1,19 @@
+@import '../../../main';
+
+.skills {
+  background-color: $secondary;
+  color: $primary;
+}
+
+div.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin: 20px auto;
+  img {
+    width: 100px;
+    margin: 20px;
+  }
+}
