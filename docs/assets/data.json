@@ -1,0 +1,134 @@
+{
+    "about": "I am very passionate about developing quality software. Whilst taking up new challenges with a positive attitude I constantly keep myself up to date with the latest technologies and ensure that the best practices are followed.",
+    "skills": [
+        { "name": "React", "url": "../assets/skills/react.svg" },
+        { "name": "Redux", "url": "../assets/skills/redux.svg" },
+        { "name": "Angular", "url": "../assets/skills/angular.svg" },
+        { "name": "RxJS", "url": "../assets/skills/reactivex.svg" },
+        { "name": "Ngrx", "url": "../assets/skills/ngrx.svg" },
+        { "name": "Typescript", "url": "../assets/skills/typescript.svg" },
+        { "name": "ES6", "url": "../assets/skills/es6.svg" },
+        { "name": "SASS", "url": "../assets/skills/sass.svg" },
+        { "name": "Webpack", "url": "../assets/skills/webpack.svg" },
+        { "name": "NodeJS", "url": "../assets/skills/nodejs.svg" },
+        { "name": "Java", "url": "../assets/skills/java.svg" },
+        { "name": "C#", "url": "../assets/skills/csharp.svg" }
+    ],
+    "experience": [
+        {
+            "from": "NOVEMBER 2017",
+            "employer": "AKCE GROUP",
+            "role": "SENIOR SOFTWARE ENGINEER",
+            "summary": "Responsible for developing and maintaining features for different products. Technologies used:",
+            "detail": [
+                {
+                    "item": "React, Redux, ES6"
+                },
+                {
+                    "item": "Angular, Typescript, RxJS, NgRx"
+                },
+                {
+                    "item": "NodeJS"
+                },
+                {
+                    "item": "Karma, Jasmine, and Jest"
+                },
+                {
+                    "item": "Webpack, npm"
+                },
+                {
+                    "item": "Sass"
+                }
+            ]
+        },
+        {
+            "from": "JULY 2016",
+            "to": "NOVEMBER 2017",
+            "employer": "MIFINITY LTD",
+            "role": "SENIOR FRONTEND DEVELOPER",
+            "summary": "Responsible for developing and maintaining features, interfacing to REST APIs. Also involved in the upgrade of a project to Angular 2+. Technologies used:",
+            "detail": [
+                {
+                    "item": "Angular, Typescript"
+                },
+                {
+                    "item": "AngularJS, ES5 and ES6"
+                },
+                {
+                    "item": "RxJS, NgRx"
+                },
+                {
+                    "item": "Karma, Jasmine"
+                },
+                {
+                    "item": "Gulp, Webpack, AngularCLI"
+                },
+                {
+                    "item": "npm"
+                },
+                {
+                    "item": "SASS and LESS"
+                }
+            ]
+        },
+        {
+            "from": "MARCH 2016",
+            "to": "JULY 2016",
+            "employer": "NEUROTECH",
+            "role": "SOFTWARE ARCHITECT",
+            "summary": "Neurotech's main product is Mente, a medical system that helps children on the Autism spectrum. Mente application interfaces with Neurotech's proprietary Mente EEG headband over WIFI to directly influence the child's music therapy.",
+            "detail": [
+                {
+                    "item": "Responsible for the overall architecture of software solutions of medical devices"
+                },
+                {
+                    "item": "Project Management"
+                },
+                {
+                    "item": "Person of reference for critical projects"
+                },
+                {
+                    "item": "Team leadership"
+                },
+                {
+                    "item": "Collaborate with the hardware team to design an effective communication protocol when interfacing with medical hardware"
+                },
+                {
+                    "item": "Push towards overall quality and maintainability of code with a can do attitude."
+                }
+            ]
+        },
+        {
+            "from": "JANUARY 2015",
+            "to": "FEBRUARY 2016",
+            "employer": "NEUROTECH",
+            "role": "SENIOR SOFTWARE DEVELOPER",
+            "summary": "Involved in:",
+            "detail": [
+                {
+                    "item": "Native Mobile Development including IOS(Objective C) and Android(Java)"
+                },
+                {
+                    "item": "The full product lifecycle from requirements analysis, design and development to testing and deployment"
+                },
+                {
+                    "item": "Customer Application support"
+                },
+                {
+                    "item": "The support of junior team members; and "
+                },
+                {
+                    "item": "The creation of standard operating procedures and technical documentation templates relating to the software lifecycle. This is done in conformance with ISO 13485."
+                }
+            ]
+        },
+        {
+            "from": "JANUARY 2013",
+            "to": "DECEMBER 2014",
+            "employer": "EXIGY LTD",
+            "role": "SOLUTION DEVELOPER",
+            "summary": "Responsible for building and maintaining Dynamics CRM solutions. Involved in all stages of the software development lifecycle comprising analysis, design, development, testing, deployment and support",
+            "detail": []
+        }
+    ]
+}
