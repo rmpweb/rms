@@ -68,7 +68,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: $screen-sm) {
 
   rm-nav-toggle {
     display: none;
@@ -98,7 +98,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     transition: opacity .35s ease .75s;
   }
 

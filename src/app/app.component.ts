@@ -12,8 +12,6 @@ export class AppComponent {
   public data = data;
 
   onSectionChange(sectionId: string) {
-    // debugger;
-    this.isNavMenuOpen = false;
     this.currentSection = sectionId;
     console.log(sectionId);
   }
@@ -23,6 +21,7 @@ export class AppComponent {
   }
 
   scrollToElement(element) {
+    this.isNavMenuOpen = false;
     element.scrollIntoView({behavior: 'smooth', block: 'start'});
   }
 }
