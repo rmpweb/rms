@@ -16,8 +16,29 @@
     ],
     "experience": [
         {
+            "from": "FEBRUARY 2019",
+            "employer": "Acunetix",
+            "role": "SENIOR SOFTWARE ENGINEER",
+            "summary": "Mainly responsible for creating a new user interface of the main product.",
+            "detail": [
+                {
+                    "item": "Angular, Typescript, RxJS, NgRx"
+                },
+                {
+                    "item": "Karma and Jasmine"
+                },
+                {
+                    "item": "Webpack, npm"
+                },
+                {
+                    "item": "SASS"
+                }
+            ]
+        },
+        {
             "from": "NOVEMBER 2017",
-            "employer": "AKCE GROUP",
+            "to": "FEBRUARY 2019",s
+            "employer": "OpenPayd",
             "role": "SENIOR SOFTWARE ENGINEER",
             "summary": "Responsible for developing and maintaining features for different products. Technologies used:",
             "detail": [
