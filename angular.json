@@ -26,6 +26,7 @@
             "assets": [
               "src/favicon.ico",
               "src/data.json",
+              "src/CNAME",
               "src/assets"
             ],
             "styles": [
@@ -94,6 +95,8 @@
             "scripts": [],
             "assets": [
               "src/favicon.ico",
+              "src/data.json",
+              "src/CNAME",
               "src/assets"
             ]
           }
@@ -141,5 +144,8 @@
       }
     }
   },
-  "defaultProject": "rms"
+  "defaultProject": "rms",
+  "cli": {
+    "analytics": "be1f65a6-bfd4-408e-a71f-7ec8df1e1283"
+  }
 }

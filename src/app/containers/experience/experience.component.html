@@ -4,7 +4,7 @@
       <h4>{{item.role}}</h4>
       <h5>{{item.employer}}</h5>
       <h6 class='dates'>{{item.from}} - {{item.to || 'PRESENT'}}</h6>
-      <p>{{item.summary}}</p>
+      <p class="multiline justify">{{item.summary}}</p>
       <ul>
       <li *ngFor='let detailItem of item.detail'>
         {{detailItem.item}}
