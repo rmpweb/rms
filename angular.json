@@ -10,13 +10,14 @@
       "prefix": "rm",
       "schematics": {
         "@schematics/angular:component": {
-          "styleext": "scss"
+          "style": "scss"
         }
       },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -24,6 +25,8 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
+              "src/data.json",
+              "src/CNAME",
               "src/assets"
             ],
             "styles": [
@@ -53,6 +56,10 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
                 }
               ]
             }
@@ -88,6 +95,8 @@
             "scripts": [],
             "assets": [
               "src/favicon.ico",
+              "src/data.json",
+              "src/CNAME",
               "src/assets"
             ]
           }
@@ -135,5 +144,8 @@
       }
     }
   },
-  "defaultProject": "rms"
+  "defaultProject": "rms",
+  "cli": {
+    "analytics": "be1f65a6-bfd4-408e-a71f-7ec8df1e1283"
+  }
 }
