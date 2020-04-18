@@ -1,5 +1,5 @@
 <!--<div rmScrollSpy [spiedTags]="['DIV']" (sectionChange)="onSectionChange($event)" >-->
-<div class='root' [ngClass]="{'menu-closed':!isNavMenuOpen, 'change': isNavMenuOpen}" *ngIf="data$ | async as data">
+<div class='root' [ngClass]="{'menu-closed':!isNavMenuOpen, 'change': isNavMenuOpen}" >
     <div class='nav-bar' [ngClass]="{'menu-closed':!isNavMenuOpen, 'change': isNavMenuOpen}">
         <div class="nav-bar-content">
             <img class='nav-logo' (click)="scrollToElement(home)" src='../assets/rm-logo-white.svg'/>
@@ -35,16 +35,16 @@
             <rm-home></rm-home>
         </div>
         <div #about id='about'>
-            <rm-about [about]="data.about"></rm-about>
+            <rm-about [data]="data$ | async"></rm-about>
         </div>
         <div #experience id='experience'>
-            <rm-experience [experience]="data.experience"></rm-experience>
+            <rm-experience [data]="data$| async"></rm-experience>
         </div>
         <div #education id='education'>
             <rm-education></rm-education>
         </div>
         <div #skills id='skills'>
-            <rm-skills [skills]="data.skills"></rm-skills>
+            <rm-skills [data]="data$ | async"></rm-skills>
         </div>
         <div #contact id='contact'>
             <rm-contact></rm-contact>
