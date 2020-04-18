@@ -1,28 +1,31 @@
 <!--<div rmScrollSpy [spiedTags]="['DIV']" (sectionChange)="onSectionChange($event)" >-->
 <div class='root' [ngClass]="{'menu-closed':!isNavMenuOpen, 'change': isNavMenuOpen}" *ngIf="data$ | async as data">
-
     <div class='nav-bar' [ngClass]="{'menu-closed':!isNavMenuOpen, 'change': isNavMenuOpen}">
-        <img class='nav-logo' (click)="scrollToElement(home)" src='../assets/rm-logo-white.svg'/>
-        <div class='nav-container'>
-            <div class='nav-item' (click)="scrollToElement(about)" [ngClass]='{active : currentSection==="about"}'>
-                About
+        <div class="nav-bar-content">
+            <img class='nav-logo' (click)="scrollToElement(home)" src='../assets/rm-logo-white.svg'/>
+            <div class='nav-container'>
+                <div class='nav-item' (click)="scrollToElement(about)" [ngClass]='{active : currentSection==="about"}'>
+                    About
+                </div>
+                <div class='nav-item' (click)="scrollToElement(experience)"
+                     [ngClass]='{active : currentSection==="experience"}'>
+                    Experience
+                </div>
+                <div class='nav-item' (click)="scrollToElement(education)"
+                     [ngClass]='{active : currentSection==="education"}'>
+                    Education
+                </div>
+                <div class='nav-item' (click)="scrollToElement(skills)"
+                     [ngClass]='{active : currentSection==="skills"}'>
+                    Skills
+                </div>
+                <div class='nav-item' (click)="scrollToElement(contact)"
+                     [ngClass]='{active : currentSection==="contact"}'>
+                    Contact
+                </div>
             </div>
-            <div class='nav-item' (click)="scrollToElement(experience)"
-                 [ngClass]='{active : currentSection==="experience"}'>
-                Experience
-            </div>
-            <div class='nav-item' (click)="scrollToElement(education)"
-                 [ngClass]='{active : currentSection==="education"}'>
-                Education
-            </div>
-            <div class='nav-item' (click)="scrollToElement(skills)" [ngClass]='{active : currentSection==="skills"}'>
-                Skills
-            </div>
-            <div class='nav-item' (click)="scrollToElement(contact)" [ngClass]='{active : currentSection==="contact"}'>
-                Contact
-            </div>
+            <rm-nav-toggle (click)="onMenuClick()"></rm-nav-toggle>
         </div>
-        <rm-nav-toggle (click)="onMenuClick()"></rm-nav-toggle>
     </div>
 
 
