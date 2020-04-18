@@ -28,6 +28,6 @@ export class AppComponent {
 
   scrollToElement(element) {
     this.isNavMenuOpen = false;
-    element.scrollIntoView({behavior: 'smooth', block: 'start'});
+    // element.scrollIntoView({behavior: 'smooth', block: 'start'});
   }
 }

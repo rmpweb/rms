@@ -12,7 +12,8 @@ import { ContactComponent } from './containers/contact/contact.component';
 import { NavToggleComponent } from './components/nav-toggle/nav-toggle.component';
 import { InfoComponent } from './components/info/info.component';
 import { InfoItemComponent } from './components/info-item/info-item.component';
-import {HttpClientModule} from "@angular/common/http";
+import {HttpClientModule} from '@angular/common/http';
+import {AppRoutingModule} from './app-routing.module.ts.module';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import {HttpClientModule} from "@angular/common/http";
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     HttpClientModule
   ],
   providers: [],
