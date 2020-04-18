@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import data from '../data.json';
 import {Observable} from "rxjs";
 import {DataService} from "./services/data.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'rm-root',
@@ -13,12 +14,13 @@ export class AppComponent {
   isNavMenuOpen = false;
   public currentSection = 'section1';
   public data$: Observable<any>;
-  constructor(private dataService: DataService){
+  constructor(private dataService: DataService, private router: Router){
     this.data$ = dataService.getContent();
   }
 
   onSectionChange(sectionId: string) {
     this.currentSection = sectionId;
+    this.router.navigate([], {fragment: sectionId});
     console.log(sectionId);
   }
 
