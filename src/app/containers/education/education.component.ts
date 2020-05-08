@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./education.component.scss']
 })
 export class EducationComponent implements OnInit {
+    dissertationUrl = `${window.location.origin}/RichardMuscat-320ProjectReport-2012.pdf`;
 
   constructor() { }
 
