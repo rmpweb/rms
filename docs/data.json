@@ -18,20 +18,23 @@
     {
       "from": "FEBRUARY 2019",
       "employer": "ACUNETIX",
-      "role": "SENIOR SOFTWARE ENGINEER",
-      "summary": "Mainly responsible for the frontend of Acunetix products. I designed and implemented a complete frontend rewrite including a new architecture and user experience. Also, I am constantly delivering new features while maintaining and enhancing existing ones.\nTechnologies used:",
+      "role": "FRONTEND LEAD",
+      "summary": "",
       "detail": [
         {
-          "item": "Angular, Typescript, RxJS, NgRx"
+          "item": "I led the design and implementation of a complete frontend rewrite including a new architecture and user experience for Acunetix products using Angular, Typescript, RxJS, NgRx, SCSS."
         },
         {
-          "item": "Karma and Jasmine"
+          "item": "Constantly delivering new features while enhancing the existing ones"
         },
         {
-          "item": "Angular CLI, Webpack, npm"
+          "item": "Mentoring peers"
         },
         {
-          "item": "SASS"
+          "item": "Code reviews"
+        },
+        {
+          "item":"Conducting interviews"
         }
       ]
     },
