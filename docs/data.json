@@ -16,7 +16,40 @@
   ],
   "experience": [
     {
+      "from": "AUGUST 2021",
+      "employer": "DILIGEX",
+      "role": "SENIOR TECHNICAL ARCHITECT",
+      "summary": "",
+      "detail": [
+        {
+          "item": "Lead the design and implementation of new features, optimizing frontend and backend architectures using Angular, .NET core and SQL Server technologies"
+        },
+        {
+          "item": "Actively participate in product development workshops, contributing to the overall vision and direction of the product roadmap"
+        },
+        {
+          "item": "Mentor and guide developers, fostering technical growth and enhancing team performance"
+        },
+        {
+          "item": "Code reviews"
+        },
+        {
+          "item":"Drive process improvements, streamlining delivery processes and enhancing deployment pipelines"
+        },
+        {
+          "item": "Project Management"
+        },
+        {
+          "item": "Conduct interviews and contribute to the hiring process"
+        },
+        {
+          "item": "Engage with non-technical stakeholders, providing training and ensuring their understanding of new features and enhancements"
+        },
+      ]
+    }
+    {
       "from": "FEBRUARY 2019",
+      "to": "AUGUST 2021",
       "employer": "ACUNETIX",
       "role": "FRONTEND LEAD",
       "summary": "",
@@ -42,21 +75,8 @@
       "from": "APRIL 2018",
       "employer": "INDEPENDENT CONTRACTOR",
       "role": "SENIOR SOFTWARE ENGINEER",
-      "summary": "As a senior frontend engineer I provide frontend solutions that meet customers' requirements.\nTechnologies used:",
-      "detail": [
-        {
-          "item": "Angular, Typescript, RxJS, NgRx"
-        },
-        {
-          "item": "Karma and Jasmine"
-        },
-        {
-          "item": "Angular CLI, Webpack, npm"
-        },
-        {
-          "item": "SASS"
-        }
-      ]
+      "summary": "As a senior software engineer, I provide frontend/backend solutions that meet customers' requirements.",
+      "detail": []
     },
     {
       "from": "NOVEMBER 2017",
