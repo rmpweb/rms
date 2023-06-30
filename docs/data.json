@@ -1,5 +1,5 @@
 {
-  "about": "Over a decade of software development experience working in various industries including financial services, web application security and AML compliance. Skilled in Angular, React, SQL, .NetCore, Spring Framework, and Agile Methodologies amongst others. Strong engineering professional with a Bachelor of Science(B.Sc.Honours) focused in Computing and Information Systems from University of London.",
+  "about": "Over a decade of software development experience working in various industries including financial services, web application security and AML/CFT compliance. Skilled in Angular, React, SQL, .NetCore, Spring Framework, and Agile Methodologies amongst others. Strong engineering professional with a Bachelor of Science(B.Sc.Honours) focused in Computing and Information Systems from University of London.",
   "skills": [
     {"name": "React", "url": "../assets/skills/react.svg"},
     {"name": "Redux", "url": "../assets/skills/redux.svg"},
@@ -44,7 +44,7 @@
         },
         {
           "item": "Engage with non-technical stakeholders, providing training and ensuring their understanding of new features and enhancements"
-        },
+        }
       ]
     },
     {
