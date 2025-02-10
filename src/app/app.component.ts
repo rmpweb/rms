@@ -5,9 +5,10 @@ import {DataService} from './services/data.service';
 import {Router} from '@angular/router';
 
 @Component({
-  selector: 'rm-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+    selector: 'rm-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss'],
+    standalone: false
 })
 export class AppComponent {
 
