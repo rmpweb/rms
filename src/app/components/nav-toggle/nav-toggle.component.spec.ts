@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { NavToggleComponent } from './nav-toggle.component';
 
@@ -6,7 +6,7 @@ describe('NavToggleComponent', () => {
   let component: NavToggleComponent;
   let fixture: ComponentFixture<NavToggleComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ NavToggleComponent ]
     })
