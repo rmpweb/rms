@@ -145,7 +145,6 @@
       }
     }
   },
-  "defaultProject": "rms",
   "cli": {
     "analytics": "be1f65a6-bfd4-408e-a71f-7ec8df1e1283"
   }
