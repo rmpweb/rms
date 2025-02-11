@@ -15,9 +15,9 @@ import { InfoItemComponent } from './components/info-item/info-item.component';
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import {AppRoutingModule} from './app-routing.module.ts.module';
 
-@NgModule({ declarations: [
-        AppComponent,
-        NavToggleComponent,
+@NgModule({ declarations: [AppComponent],
+    bootstrap: [AppComponent], imports: [BrowserModule,
+        AppRoutingModule, NavToggleComponent,
         AboutComponent,
         SkillsComponent,
         ScrollSpyDirective,
@@ -26,8 +26,5 @@ import {AppRoutingModule} from './app-routing.module.ts.module';
         EducationComponent,
         ContactComponent,
         InfoComponent,
-        InfoItemComponent
-    ],
-    bootstrap: [AppComponent], imports: [BrowserModule,
-        AppRoutingModule], providers: [provideHttpClient(withInterceptorsFromDi())] })
+        InfoItemComponent], providers: [provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }

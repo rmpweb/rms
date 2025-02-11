@@ -4,8 +4,7 @@ import { Component, OnInit, Input, EventEmitter, Output, ViewEncapsulation } fro
     selector: 'rm-nav-toggle',
     templateUrl: './nav-toggle.component.html',
     styleUrls: ['./nav-toggle.component.scss'],
-    encapsulation: ViewEncapsulation.None,
-    standalone: false
+    encapsulation: ViewEncapsulation.None
 })
 export class NavToggleComponent implements OnInit {
 

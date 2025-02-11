@@ -4,12 +4,11 @@ import {Component, Input, OnInit, ViewEncapsulation} from "@angular/core";
     selector: 'rm-info',
     templateUrl: './info.component.html',
     styleUrls: ['./info.component.scss'],
-    encapsulation: ViewEncapsulation.None,
-    standalone: false
+    encapsulation: ViewEncapsulation.None
 })
 export class InfoComponent implements OnInit {
 
-  @Input() title: string;
+  @Input() title!: string;
   @Input() darkerAccent = false;
   constructor() { }
 

@@ -8,8 +8,8 @@ describe('NavToggleComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ NavToggleComponent ]
-    })
+    imports: [NavToggleComponent]
+})
     .compileComponents();
   }));
 
