@@ -1,9 +1,13 @@
-<div class='skills' *ngIf="data">
-  <rm-info [title]='"Skills"'>
-    <div class='skills-container'>
-      <div  *ngFor="let skill of data.skills ; let i = index">
-        <img src={{skill.url}}>
+@if (data) {
+  <div class='skills'>
+    <rm-info [title]='"Skills"'>
+      <div class='skills-container'>
+        @for (skill of data.skills ; track skill; let i = $index) {
+          <div >
+            <img src={{skill.url}}>
+          </div>
+        }
       </div>
-    </div>
-  </rm-info>
-</div>
+    </rm-info>
+  </div>
+}

@@ -5,15 +5,16 @@ import {DataService} from './services/data.service';
 import {Router} from '@angular/router';
 
 @Component({
-  selector: 'rm-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+    selector: 'rm-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss'],
+    standalone: false
 })
 export class AppComponent {
 
   isNavMenuOpen = false;
   public isNavigating = false;
-  public fragment: string;
+  public fragment!: string;
   public currentSection = 'section1';
   public data$: Observable<any>;
   constructor(private dataService: DataService, private location: Location) {
@@ -48,7 +49,7 @@ export class AppComponent {
     this.isNavMenuOpen = !this.isNavMenuOpen;
   }
 
-  scrollToElement(element) {
+  scrollToElement(element: HTMLElement) {
     this.isNavigating = true;
     this.fragment = element.id;
     this.isNavMenuOpen = false;

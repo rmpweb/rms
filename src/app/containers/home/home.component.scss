@@ -1,7 +1,9 @@
-@import '../../../main';
+@use 'main' as *;
+@use 'sass:color';
 div{
   height: calc(100vh - 45px);
-  background-color: darken($primary, 6%);
+  //background-color: darken($primary, 6%);
+  background-color: color.adjust($primary, $lightness: -6%);
   display: flex;
   flex-direction: column;
   justify-content: center;

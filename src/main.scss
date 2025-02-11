@@ -1,8 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
-@import
-'styles/generic.scss',
-'styles/layout.scss',
-'styles/theme.scss';
+//@use 'styles/generic.scss';
+//@use 'styles/layout.scss';
+//@use 'styles/theme.scss';
+
+
+//theme
+$primary-lighter: #414852;
+$primary: #1f2833;
+$primary-darker: #0b0c10;
+$secondary: #e5e6e7;
+$secondary-darker: #c5c6c7;
+$accent: #66fcf1;
+$accent-shadow: rgba(102, 252, 241, .4);
+$accent-darker: #45a29e;
+
+
+
+//layout
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+
+
+
+
+//generic
+.italics{
+  font-style: italic;
+}
+
+.multiline{
+  white-space: pre-line;
+}
+
+.justify{
+  text-align: justify;
+}
+
+.link {
+  color: $accent-darker;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
 
 
 *{
