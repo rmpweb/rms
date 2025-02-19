@@ -1,0 +1,12 @@
+<div class="badges">
+
+
+@for (badgeId of badgeIds; track badgeId) {
+    <div class="credly-badge"
+         data-iframe-width="150"
+         data-iframe-height="150"
+         [attr.data-share-badge-id]="badgeId"
+         data-share-badge-host="https://www.credly.com">
+    </div>
+}
+</div>
