@@ -1,13 +1,7 @@
 @if (data) {
   <div class='skills'>
-    <rm-info [title]='"Skills"'>
-      <div class='skills-container'>
-        @for (skill of data.skills ; track skill; let i = $index) {
-          <div >
-            <img src={{skill.url}}>
-          </div>
-        }
-      </div>
+    <rm-info [title]='"Certifications"'>
+        <rm-credly-badges [badgeIds]="data.credly"></rm-credly-badges>
     </rm-info>
   </div>
 }

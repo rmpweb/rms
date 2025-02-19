@@ -4,6 +4,7 @@ import {Component, Input, OnInit, ViewEncapsulation} from "@angular/core";
     selector: 'rm-info',
     templateUrl: './info.component.html',
     styleUrls: ['./info.component.scss'],
+    standalone: true,
     encapsulation: ViewEncapsulation.None
 })
 export class InfoComponent implements OnInit {

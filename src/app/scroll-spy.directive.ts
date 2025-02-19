@@ -1,6 +1,6 @@
 import { Directive, ElementRef, EventEmitter, Injectable, HostListener, Input, Output } from '@angular/core';
 
-@Directive({ selector: '[rmScrollSpy]' })
+@Directive({standalone: true, selector: "[rmScrollSpy]"})
 export class ScrollSpyDirective {
 
   @Output() public sectionChange = new EventEmitter<string>();

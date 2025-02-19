@@ -1,9 +1,14 @@
 @use 'main' as *;
 @use 'sass:color';
-div{
+.home-container{
   height: calc(100vh - 45px);
-  //background-color: darken($primary, 6%);
-  background-color: color.adjust($primary, $lightness: -6%);
+  background-color: white;
+  //background-color: color.adjust($primary, $lightness: 3%);
+  //background-color: $primary-lighter;
+  background: url('../../../assets/hex.svg');
+  background-position: center;
+  //background-size: 150px 130px; /* Adjust based on hex size */
+  //background-size: 100px 86.6px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,13 +17,17 @@ div{
   h1 {
     color: $accent;
   }
-  h2{
+  h2, h3{
     color: $secondary;
   }
+
 }
 
 
-
+.heading{
+  padding: 0 10px;
+  text-align: center;
+}
 .avatar-frame, .avatar-frame img {
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;

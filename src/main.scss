@@ -5,6 +5,8 @@
 
 
 //theme
+
+$classic: #111313;
 $primary-lighter: #414852;
 $primary: #1f2833;
 $primary-darker: #0b0c10;
@@ -73,7 +75,8 @@ a{
 }
 
 body{
-  background-color: $primary-darker;
+  background-color: $classic;
+
   height: 100vh;
   -webkit-font-smoothing: antialiased;
   //font-family: 'Montserrat:100,100i,200,200i,300,300i,400 400i"', sans-serif;
@@ -87,6 +90,10 @@ body{
     font-weight: 200;
     font-size: 1em;
   }
+  h3 {
+    font-weight: 200;
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width : 768px) {
@@ -96,6 +103,9 @@ body{
     }
     h2 {
       font-size: 2em;
+    }
+    h3 {
+      font-size: 1.3em;
     }
   }
 }

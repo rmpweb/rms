@@ -15,9 +15,9 @@
                      [ngClass]='{active : currentSection==="education"}'>
                     Education
                 </div>
-                <div class='nav-item' (click)="scrollToElement(skills)"
-                     [ngClass]='{active : currentSection==="skills"}'>
-                    Skills
+                <div class='nav-item' (click)="scrollToElement(certifications)"
+                     [ngClass]='{active : currentSection==="certifications"}'>
+                    Certifications
                 </div>
                 <div class='nav-item' (click)="scrollToElement(contact)"
                      [ngClass]='{active : currentSection==="contact"}'>
@@ -38,7 +38,7 @@
     <!--<div class='content' >-->
     <main id='parentDiv' rmScrollSpy (sectionChange)="onSectionChange($event)">
         <div #home id='home'>
-            <rm-home></rm-home>
+            <rm-home [data]="data$| async"></rm-home>
         </div>
         <div #about id='about'>
             <rm-about [data]="data$ | async"></rm-about>
@@ -49,7 +49,7 @@
         <div #education id='education'>
             <rm-education></rm-education>
         </div>
-        <div #skills id='skills'>
+        <div #certifications id='certifications'>
             <rm-skills [data]="data$ | async"></rm-skills>
         </div>
         <div #contact id='contact'>
@@ -58,7 +58,7 @@
     </main>
 
     <footer class='centered'>
-        © 2020 Richard Muscat All rights reserved.
+        © 2025 Richard Muscat All rights reserved.
     </footer>
 </div>
 <!--</div>-->

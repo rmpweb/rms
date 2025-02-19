@@ -1,9 +1,10 @@
 import { Component, OnInit, Input, EventEmitter, Output, ViewEncapsulation } from '@angular/core';
 
 @Component({
-    selector: 'rm-nav-toggle',
-    templateUrl: './nav-toggle.component.html',
-    styleUrls: ['./nav-toggle.component.scss'],
+    selector: "rm-nav-toggle",
+    templateUrl: "./nav-toggle.component.html",
+    styleUrls: ["./nav-toggle.component.scss"],
+    standalone: true,
     encapsulation: ViewEncapsulation.None
 })
 export class NavToggleComponent implements OnInit {
