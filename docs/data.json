@@ -1,5 +1,5 @@
 {
-  "about": "Over a decade of software development experience working in various industries including financial services, web application security and AML/CFT compliance. Skilled in Angular, React, SQL, .NetCore, Spring Framework, and Agile Methodologies amongst others. Strong engineering professional with a Bachelor of Science(B.Sc.Honours) focused in Computing and Information Systems from University of London.",
+  "about": "I am very passionate about developing quality software. Whilst taking up new challenges with a positive attitude I constantly keep myself up to date with the latest technologies and ensure that the best practices are followed.",
   "skills": [
     {"name": "React", "url": "../assets/skills/react.svg"},
     {"name": "Redux", "url": "../assets/skills/redux.svg"},
@@ -16,58 +16,22 @@
   ],
   "experience": [
     {
-      "from": "AUGUST 2021",
-      "employer": "DILIGEX",
-      "role": "SENIOR TECHNICAL ARCHITECT",
-      "summary": "",
-      "detail": [
-        {
-          "item": "Lead the design and implementation of new features, optimizing frontend and backend architectures using Angular, .NET core and SQL Server technologies"
-        },
-        {
-          "item": "Actively participate in product development workshops, contributing to the overall vision and direction of the product roadmap"
-        },
-        {
-          "item": "Mentor and guide developers, fostering technical growth and enhancing team performance"
-        },
-        {
-          "item": "Code reviews"
-        },
-        {
-          "item":"Drive process improvements, streamlining delivery processes and enhancing deployment pipelines"
-        },
-        {
-          "item": "Project Management"
-        },
-        {
-          "item": "Conduct interviews and contribute to the hiring process"
-        },
-        {
-          "item": "Engage with non-technical stakeholders, providing training and ensuring their understanding of new features and enhancements"
-        }
-      ]
-    },
-    {
       "from": "FEBRUARY 2019",
-      "to": "AUGUST 2021",
       "employer": "ACUNETIX",
-      "role": "FRONTEND LEAD",
-      "summary": "",
+      "role": "SENIOR SOFTWARE ENGINEER",
+      "summary": "Mainly responsible for the frontend of Acunetix products. I designed and implemented a complete frontend rewrite including a new architecture and user experience. Also, I am constantly delivering new features while maintaining and enhancing existing ones.\nTechnologies used:",
       "detail": [
         {
-          "item": "I led the design and implementation of a complete frontend rewrite including a new architecture and user experience for Acunetix products using Angular, Typescript, RxJS, NgRx, SCSS."
+          "item": "Angular, Typescript, RxJS, NgRx"
         },
         {
-          "item": "Constantly delivering new features while enhancing the existing ones"
+          "item": "Karma and Jasmine"
         },
         {
-          "item": "Mentoring peers"
+          "item": "Angular CLI, Webpack, npm"
         },
         {
-          "item": "Code reviews"
-        },
-        {
-          "item":"Conducting interviews"
+          "item": "SASS"
         }
       ]
     },
@@ -75,8 +39,21 @@
       "from": "APRIL 2018",
       "employer": "INDEPENDENT CONTRACTOR",
       "role": "SENIOR SOFTWARE ENGINEER",
-      "summary": "As a senior software engineer, I provide frontend/backend solutions that meet customers' requirements.",
-      "detail": []
+      "summary": "As a senior frontend engineer I provide frontend solutions that meet customers' requirements.\nTechnologies used:",
+      "detail": [
+        {
+          "item": "Angular, Typescript, RxJS, NgRx"
+        },
+        {
+          "item": "Karma and Jasmine"
+        },
+        {
+          "item": "Angular CLI, Webpack, npm"
+        },
+        {
+          "item": "SASS"
+        }
+      ]
     },
     {
       "from": "NOVEMBER 2017",
