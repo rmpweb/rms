@@ -1,0 +1,21 @@
+@use 'main' as *;
+
+.badges {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+
+  .credly-badge {
+    overflow: visible;
+  }
+}
+
+@media only screen and (min-width: $screen-sm) {
+  .badges {
+    justify-content: flex-start;
+  }
+}
