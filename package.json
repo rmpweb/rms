@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build:pages": "ng build && npm run move-files",
+    "move-files": "cp -r docs/browser/* docs/ && rm -rf docs/browser"
   },
   "private": true,
   "dependencies": {
